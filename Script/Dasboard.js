@@ -36,3 +36,6 @@ $('.fa-bars-staggered').on('click',function(){
 $('.profile').animatedHeadline({
   animationType: "type"
 });
+
+
+

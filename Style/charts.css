@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.chart-container{
+    height: 89vh;
+    width: 100%;
+    border: 1px solid #000;
+    overflow-y: scroll;
+}
+
+.topic-head{
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.chart-1{
+    height: 400px;
+    width: 500px;
+    border: 1px solid #000;
+}
+
+.chart-sec-1{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.chart-sec-2{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.chart-sec-3{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.chart-container::-webkit-scrollbar{
+    display: none;
+}
+
+
+.chart-name{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+.chart-5{
+    margin-left: 130px;
+}
