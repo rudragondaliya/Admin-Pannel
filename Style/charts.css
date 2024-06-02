@@ -7,8 +7,9 @@
 .chart-container{
     height: 89vh;
     width: 100%;
-    border: 1px solid #000;
     overflow-y: scroll;
+    background-color: whitesmoke;
+    
 }
 
 .topic-head{
@@ -22,8 +23,10 @@
 .chart-1{
     height: 400px;
     width: 500px;
-    border: 1px solid #000;
-}
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}   
 
 .chart-sec-1{
     height: 500px;
