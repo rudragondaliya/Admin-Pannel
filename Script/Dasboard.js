@@ -1,3 +1,23 @@
+// $("#side-bar>button").on("click", function () {
+// $("#charts,#icons,#calender,#login").hide()
+//  $($(this).attr("for")).show();
+//  $("#side-bar").toggle(900,function(){
+//   $("#supMan").css("width","100%")
+// })
+// });
+
+
+// $(".fa-bars-staggered").on("click",function(){
+//   $("#side-bar").toggle(900,function(){
+//       $("#supMan").css("width","100%")
+//   })
+// })
+
+
+
+
+
+
 let sideVisible = true;
 
 function contantSize(){
@@ -6,19 +26,24 @@ function contantSize(){
    $("#supMain").css("width","80%");
  }else{
   $("#supMain").css("width","100%");
+  
+  
  }
 }
 
 
 
-$('#charts,#icons,#login').hide()
+
+
+
+$('#charts,#icons,#tables,#login').hide()
 
 
 
 
 
 $(".btn>button").on("click",function(){
-    $("#dashboard,#charts,#icons,#login").hide();
+    $("#dashboard,#charts,#icons,#tables,#login").hide();
   $($(this).attr("for")).show();
   console.log($(this).attr("for"));
 })
@@ -28,7 +53,7 @@ $(".btn>button").on("click",function(){
 
 
 $('.fa-bars-staggered').on('click',function(){
-  $('#side-bar').toggle();
+  $('#side-bar').toggle().css("z-index","20")
   contantSize();
 })
 
@@ -37,5 +62,31 @@ $('.profile').animatedHeadline({
   animationType: "type"
 });
 
+
+
+$('#login-btn').on('click',function(){
+  
+})
+
+
+$("#side-close-btn").on('click',function(){
+  $("#side-bar").hide();
+  contantSize();
+})
+
+
+
+$(".popup").on("pageload",function(){
+  $(".popup").show();
+})
+
+window.onload = ".popup";
+
+
+$('.popup').css('display','block')
+
+$('.fa-xmark').on('click',function(){
+  $('.popup').hide();
+})
 
 

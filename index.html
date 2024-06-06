@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="./dist/apexcharts.css">
     <link rel="stylesheet" href="./Style/charts.css">
     <link rel="stylesheet" href="./Style/icons.css">
+    <link rel="stylesheet" href="./Style/login.css">
+    <link rel="stylesheet" href="./Style/table.css">
+    
     
     
     
@@ -18,6 +21,19 @@
     
 </head>
 <body>
+<!-- 
+    <div class="popup">
+        <form >
+        <button id="close"><i class="fa-solid fa-xmark"></i></button>
+        <h1>Registeration</h1>
+        <label >Username:</label>
+        <input type="text" name="" id="" placeholder="username">
+        <label>Password:</label>
+        <input type="password" name="" id="" placeholder="password">
+
+        <button type="submit" id="register">Submit</button>
+        </form>
+    </div> -->
 
     <!------------------------------------------ Admin Pannel main container------------------------------------------- -->
     
@@ -27,10 +43,12 @@
             <img src="https://themesbrand.com/velzon/html/material/assets/images/logo-light.png" alt=""  height="18px">
             </div>
             <h4>Menu</h4>
+            <button id="side-close-btn"><i class='bx bx-left-arrow-alt'></i></button>
             <div class="btn">
             <button for="#dashboard"> <span> <i class="fa-solid fa-gauge"></i></span> Dashboard  </button>
             <button for="#charts">  <span> <i class="fa-solid fa-chart-simple"></i></span> Charts</button>
             <button for="#icons"> <span><i class="fa-solid fa-icons"></i></span> Icons</button>
+            <button for="#tables"> <span><i class='bx bx-grid-alt'></i> Tables</span> </button>
             <button for="#login"> <span><i class="fa-solid fa-right-to-bracket"></i></span> Login </button>
             </div>
         </div>
@@ -65,7 +83,7 @@
                                        <i class="fa-brands fa-adn"></i>
                                        <i class="fa-solid fa-bag-shopping"></i>
                                        <i class="fa-regular fa-bell fa-shake"></i>
-    
+                                
                                     </div>
     
                                     <div class="profile">
@@ -427,7 +445,7 @@
                                 </div>
                                 <div id="chart-1"></div>
                             </div>
-                            <div class="chart-1">
+                            <div class="chart-2">
                                 <div class="chart-name">
                                     Stacked Chart
                                 </div>
@@ -436,22 +454,22 @@
                             </div>
 
                             <div class="chart-sec-2">
-                            <div class="chart-1">
+                            <div class="chart-3">
                                 <div class="chart-name">Rotated Labels Chart</div>
                                 <div id="chart-3"></div>
                             </div>
-                            <div class="chart-1">
+                            <div class="chart-4">
                                 <div class="chart-name"></div>
                                 <div id="chart-4"></div>
                             </div>
                             </div>
 
                             <div class="chart-sec-3">
-                            <div class="chart-1">
+                            <div class="chart-5">
                                 <div class="chart-name"> BoxPlatter Chart</div>
                                 <div id="chart-5"></div>
                             </div>
-                            <div class="chart-1">
+                            <div class="chart-6">
                                 <div class="chart-name">Circle Chart</div>
                                 <div id="chart-6"></div>
                             </div>
@@ -531,10 +549,32 @@
                             <p class="icon-29"><i class='bx bx-bell' ></i></p>
                             <p class="icon-30"><i class='bx bx-copyright' ></i></p>
                             <p class="icon-31"><i class='bx bx-moon' ></i></p>
-                            <p class="icon-32"><i class='bx bx-dots-vertical-rounded' ></i></p>
+                            <p class="icon-32"><i class='bx bxl-discord'></i></p>
                            </div>
                          
-                        
+
+                           <div class="icon-sec-9">
+                            <p class="icon-33"><i class='bx bxl-play-store' ></i></p>
+                            <p class="icon-34"><i class='bx bx-football' ></i></p>
+                            <p class="icon-35"><i class='bx bxs-magnet' ></i></p>
+                            <p class="icon-36"><i class='bx bxl-stack-overflow' ></i></p>
+                           </div>
+
+                           <div class="icon-sec-10">
+                            <p class="icon-37"><i class='bx bxl-microsoft' ></i></p>
+                            <p class="icon-38"><i class='bx bxl-whatsapp-square' ></i></p>
+                            <p class="icon-39"><i class='bx bx-location-plus' ></i></p>
+                            <p class="icon-40"><i class='bx bx-category' ></i>x </p>
+                           </div>
+                            
+                         <div class="icon-sec-11">
+                            <p class="icon-41"><i class='bx bxl-dev-to' ></i></p>
+                            <p class="icon-42"><i class='bx bx-envelope-open' ></i></p>
+                            <p class="icon-43"><i class='bx bx-tachometer' ></i></p>
+                            <p class="icon-44"><i class='bx bx-wifi-2' ></i></p>
+                         </div>
+
+
                         </div>
                        </div>
                     </div>
@@ -544,8 +584,228 @@
 
 
                 <div id="login">
-                    <h1>hello Login</h1>
+                    <div class="login-container">
+                        <div class="login-page">
+                            <div class="login-img">
+                                <img src="https://www.intrigueit.com/wp-content/uploads/web-design-and-development.jpg" alt="" height="495px" width="500px">
+                            </div>
+                            <div class="login-content">
+                                <h1>Login</h1>
+                                <form>
+                                <div class="input-1">
+                                    <input type="text" name="" id="" placeholder="Enter your username" required>
+                                    <i class='bx bx-user' ></i>
+                                </div>
+                                <div class="input-2">
+                                    <input type="password" placeholder="Password" required>
+                                    <i class='bx bx-show' ></i>
+                                </div>
+                                <div class="forget-password"><a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0">Forgot-Password</a></div>
+
+                                <button  id="login-btn" type="submit">Login</button>
+                                <div class="signin">
+                                    <p>Don't have an account? Let's</p>
+                                    <a href="https://www.facebook.com/r.php">Get Started For Free</a>
+                                </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
+
+                <!-- tables -->
+              
+       <div id="tables">
+        <div class="table-container">
+            <div class="table-card">
+                Basic tables
+            </div>
+              <div class="table-sec-1">
+              <div class="table-1">
+                <table class="table table-nowrap">
+                    <thead>
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Customer</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Invoice</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row"><a href="#" class="fw-semibold">#120</a></th>
+                            <td>Bobby Das</td>
+                            <td>October 15, 2021</td>
+                            <td>$2,300</td>
+                            <td><a href="javascript:void(0);" class="link-success">View More <i class="ri-arrow-right-line align-middle"></i></a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><a href="#" class="fw-semibold">#119</a></th>
+                            <td>Chris Neal</td>
+                            <td>October 7, 2021</td>
+                            <td>$5,500</td>
+                            <td><a href="javascript:void(0);" class="link-success">View More <i class="ri-arrow-right-line align-middle"></i></a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><a href="#" class="fw-semibold">#118</a></th>
+                            <td>Mey Karry</td>
+                            <td>October 5, 2021</td>
+                            <td>$2,420</td>
+                            <td><a href="javascript:void(0);" class="link-success">View More <i class="ri-arrow-right-line align-middle"></i></a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><a href="#" class="fw-semibold">#117</a></th>
+                            <td>James White</td>
+                            <td>October 2, 2021</td>
+                            <td>$7,452</td>
+                            <td><a href="javascript:void(0);" class="link-success">View More <i class="ri-arrow-right-line align-middle"></i></a></td>
+                        </tr>
+                    </tbody>
+                </table>
+              </div>
+
+
+
+              <div class="table-1">
+                <table class="table table-nowrap">
+                    <thead>
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Customer</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Invoice</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row"><a href="#" class="fw-semibold">#110</a></th>
+                            <td>Rudra</td>
+                            <td>October 15, 2021</td>
+                            <td>$5,300</td>
+                            <td><a href="javascript:void(0);" class="link-success">View More <i class="ri-arrow-right-line align-middle"></i></a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><a href="#" class="fw-semibold">#109</a></th>
+                            <td>Neal</td>
+                            <td>October 7, 2021</td>
+                            <td>$7,500</td>
+                            <td><a href="javascript:void(0);" class="link-success">View More <i class="ri-arrow-right-line align-middle"></i></a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><a href="#" class="fw-semibold">#108</a></th>
+                            <td>Monty Karry</td>
+                            <td>October 5, 2021</td>
+                            <td>$4,420</td>
+                            <td><a href="javascript:void(0);" class="link-success">View More <i class="ri-arrow-right-line align-middle"></i></a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><a href="#" class="fw-semibold">#107</a></th>
+                            <td>James black</td>
+                            <td>October 2, 2021</td>
+                            <td>$9,452</td>
+                            <td><a href="javascript:void(0);" class="link-success">View More <i class="ri-arrow-right-line align-middle"></i></a></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+              </div>
+              </div>
+              <div class="table-sec-2">
+              <div class="table-1">
+                <table class="table table-nowrap">
+                    <thead>
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Customer</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Invoice</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row"><a href="#" class="fw-semibold">#211</a></th>
+                            <td> Davis</td>
+                            <td>January 15, 2021</td>
+                            <td>$2,300</td>
+                            <td><a href="javascript:void(0);" class="link-success">View More <i class="ri-arrow-right-line align-middle"></i></a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><a href="#" class="fw-semibold">#209</a></th>
+                            <td>topher Neal</td>
+                            <td>February 7, 2021</td>
+                            <td>$5,500</td>
+                            <td><a href="javascript:void(0);" class="link-success">View More <i class="ri-arrow-right-line align-middle"></i></a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><a href="#" class="fw-semibold">#218</a></th>
+                            <td>Monkarry</td>
+                            <td>March 5, 2021</td>
+                            <td>$2,420</td>
+                            <td><a href="javascript:void(0);" class="link-success">View More <i class="ri-arrow-right-line align-middle"></i></a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><a href="#" class="fw-semibold">#217</a></th>
+                            <td>James White</td>
+                            <td>November 2, 2021</td>
+                            <td>$7,452</td>
+                            <td><a href="javascript:void(0);" class="link-success">View More <i class="ri-arrow-right-line align-middle"></i></a></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+              </div>
+              <div class="table-1">
+                <table class="table table-nowrap">
+                    <thead>
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Customer</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Invoice</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row"><a href="#" class="fw-semibold">#221</a></th>
+                            <td> David laid</td>
+                            <td>January 15, 2021</td>
+                            <td>$2,350</td>
+                            <td><a href="javascript:void(0);" class="link-success">View More <i class="ri-arrow-right-line align-middle"></i></a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><a href="#" class="fw-semibold">#229</a></th>
+                            <td>top Neal</td>
+                            <td>February 7, 2021</td>
+                            <td>$5,520</td>
+                            <td><a href="javascript:void(0);" class="link-success">View More <i class="ri-arrow-right-line align-middle"></i></a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><a href="#" class="fw-semibold">#228</a></th>
+                            <td>Monkary</td>
+                            <td>March 5, 2021</td>
+                            <td>$2,430</td>
+                            <td><a href="javascript:void(0);" class="link-success">View More <i class="ri-arrow-right-line align-middle"></i></a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><a href="#" class="fw-semibold">#222</a></th>
+                            <td>Jam White</td>
+                            <td>November 2, 2021</td>
+                            <td>$7,422</td>
+                            <td><a href="javascript:void(0);" class="link-success">View More <i class="ri-arrow-right-line align-middle"></i></a></td>
+                        </tr>
+                    </tbody>
+                </table>
+              </div>
+              </div>
+        </div>
+       </div>
+
         </div>
     
 
@@ -567,6 +827,7 @@
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="./Script/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.13/index.global.min.js"></script>
     
     <script src="./Script/Dasboard.js"></script>
 

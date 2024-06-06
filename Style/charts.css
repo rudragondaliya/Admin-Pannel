@@ -20,6 +20,7 @@
 }
 
 
+
 .chart-1{
     height: 400px;
     width: 500px;
@@ -27,6 +28,55 @@
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }   
+
+
+.chart-2{
+    height: 400px;
+    width: 500px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}   
+
+
+.chart-3{
+    height: 400px;
+    width: 500px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}   
+
+
+.chart-4{
+    height: 400px;
+    width: 500px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}   
+
+
+.chart-5{
+    height: 400px;
+    width: 500px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}   
+
+
+
+.chart-6{
+    height: 400px;
+    width: 500px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}   
+
+
+
 
 .chart-sec-1{
     height: 500px;
@@ -70,6 +120,175 @@
 }
 
 
-.chart-5{
-    margin-left: 130px;
+
+
+
+
+@media (max-width:600px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+     
+
+
+
+    .chart-container{
+        height: 89vh;
+        width: 100%;
+        overflow-y: scroll;
+        background-color: whitesmoke;
+    }
+    
+    .topic-head{
+        height: 30px;
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    
+    .chart-1{
+        height: 400px;
+        width: 350px;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin-top: 330px;
+    }   
+
+    
+    .chart-2{
+        height: 400px;
+        width: 350px;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin-top: 20px;
+        
+    }   
+    
+    
+    .chart-3{
+        height: 400px;
+        width: 350px;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin-top: 20px;
+        
+    }   
+    
+    
+    .chart-4{
+        height: 400px;
+        width: 350px;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin-top: 20px;
+    
+    }   
+    
+    
+    .chart-5{
+        height: 400px;
+        width: 350px;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin-top: 60px;
+        
+    }   
+    
+    
+    
+    .chart-6{
+        height: 400px;
+        width: 350px;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin-top: 20px;
+    
+    }   
+    
+    
+    
+    .chart-sec-1{
+        height: 600px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+        
+
+    }
+    
+    .chart-sec-2{
+        height: 600px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 400px;
+        
+    }
+    
+    
+    .chart-sec-3{
+        height: 600px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 200px;
+        
+    }
+    
+    
+    .chart-container::-webkit-scrollbar{
+        display: none;
+    }
+    
+    
+    .chart-name{
+        height: 40px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    
+    #chart-1{
+        width: 340px;
+    }
+
+    #chart-2{
+        width: 340px;
+    }
+    
+    #chart-3{
+        width: 340px;
+    }
+
+    #chart-4{
+        width: 340px;
+    }
+
+    #chart-5{
+        width: 340px;
+    }
+
+    #chart-6{
+        width: 340px;
+    }
 }
