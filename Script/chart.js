@@ -62,7 +62,7 @@ new Chart(chart2, {
     breakpoint: 480,
     options: {
       chart: {
-        width: 300
+        width: 200
       },
       legend: {
         position: 'bottom'
