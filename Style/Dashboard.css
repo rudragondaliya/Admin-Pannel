@@ -2372,7 +2372,7 @@ font-weight: bold;
     
     
     #chart{
-        margin-top: 50px;
+        margin-top: 20px;
         height: 500px;
         width: 100%;
     
@@ -2394,11 +2394,11 @@ font-weight: bold;
     
     .user-dev{
         height: 500px;
-        width: 340px;
+        width: 360px;
         border: 1px solid #d0cdcd;
         background-color: white;
         box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-        margin-top: 0px;
+        margin-top: 30px;
     }
     
     #pie{
@@ -3811,9 +3811,9 @@ font-weight: bold;
     
     
     #chart{
-        
+        margin-top: 30px;
         height: 500px;
-        width: 100%;
+        
     
     }
     
@@ -3835,10 +3835,12 @@ font-weight: bold;
         border: 1px solid #d0cdcd;
         background-color: white;
         box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+        
+    
     }
     
     #pie{
-        margin-top: 50px;
+        margin-top: 70px;
     }
     
     .referal{
