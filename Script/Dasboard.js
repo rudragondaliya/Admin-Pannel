@@ -18,18 +18,26 @@
 
 
 
+
+
 let sideVisible = true;
 
 function contantSize(){
  sideVisible = !sideVisible;
  if(sideVisible){
+   if(visualViewport.width <= 600){
+    $("#supMain").css("width","100%");
+    return;
+   }
    $("#supMain").css("width","80%");
  }else{
   $("#supMain").css("width","100%");
-  
-  
  }
 }
+
+
+
+
 
 
 
@@ -58,6 +66,8 @@ $('.fa-bars-staggered').on('click',function(){
 })
 
 
+
+
 $('.profile').animatedHeadline({
   animationType: "type"
 });
@@ -75,18 +85,19 @@ $("#side-close-btn").on('click',function(){
 })
 
 
-
-$(".popup").on("pageload",function(){
-  $(".popup").show();
+$('.popup-container').css({
+  "display":"none"
 })
 
-window.onload = ".popup";
 
 
-$('.popup').css('display','block')
+
+$('.fa-shake').on('click',function(){
+  $('.popup-container').show();
+})
+
+
 
 $('.fa-xmark').on('click',function(){
-  $('.popup').hide();
-})
-
-
+  $('.popup-container').hide();
+});
