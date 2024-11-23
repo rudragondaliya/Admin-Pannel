@@ -90,6 +90,10 @@ $('.popup-container').css({
 })
 
 
+// $('.btn>button').on('click',function(){
+//   $('#side-bar').hide()
+// })
+
 
 
 $('.fa-shake').on('click',function(){
@@ -101,3 +105,5 @@ $('.fa-shake').on('click',function(){
 $('.fa-xmark').on('click',function(){
   $('.popup-container').hide();
 });
+
+
